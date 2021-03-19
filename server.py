@@ -1,9 +1,8 @@
 import socket
 import select
-import threading
 
-HEADER = 10
-IP = '192.168.72.2'
+HEADER = 24
+IP = socket.gethostbyname(socket.gethostname())
 FORMAT = 'utf-8'
 
 PORT = 7777

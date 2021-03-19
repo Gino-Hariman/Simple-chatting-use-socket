@@ -3,8 +3,8 @@ import select
 import errno
 import sys
 
-HEADER = 10
-IP = '192.168.72.2'
+HEADER = 24
+IP = socket.gethostbyname(socket.gethostname())
 PORT = 7777
 FORMAT = 'utf-8'
 
