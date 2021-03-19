@@ -36,10 +36,11 @@ def receive_message(client_socket):
         return False
 
 
-while True:
+while True: 
     read_sockets, _, exception_sockets = select.select(
         sockets_list, [], sockets_list)
 
+    # untuk mengecek socket baru
     for notified_socket in read_sockets:
         if notified_socket == server_socket:
             client_socket, client_address = server_socket.accept()
@@ -51,7 +52,7 @@ while True:
 
             clients[client_socket] = user
 
-            # print("Welcome to the Chatroom!")
+            print("Welcome to the Chatroom!")
             print(
                 f"Accepted new connection from {client_address}:{client_address[1]} username: {user['data'].decode(FORMAT)}")
 

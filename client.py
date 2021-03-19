@@ -8,7 +8,7 @@ IP = socket.gethostbyname(socket.gethostname())
 PORT = 7777
 FORMAT = 'utf-8'
 
-my_username = input("Username: ")
+my_username = input("Name: ")
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 client_socket.connect((IP, PORT))
 client_socket.setblocking(False)

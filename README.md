@@ -16,7 +16,7 @@
 
 ## Penjelasan App
 - import select 
-> digunakan untuk memantau banyak koneksi socket
+  > digunakan untuk memantau banyak koneksi socket
 - server menunggu client yang akan masuk
 - ketika client masuk, client diminta memasukkan nama 
 - semua user disimpan dalam sebuah dictionary clients
