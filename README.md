@@ -6,16 +6,17 @@
 
 ## How to Run
 
-- pertama jalankan server.py pada terminal
+* pertama jalankan server.py pada terminal
 
-* python server.py
+  * python server.py
 
-- kedua jalankan client.py pada terminal
+* kedua jalankan client.py pada terminal
 
-* python client.py
+  * python client.py
 
 ## Penjelasan App
-- import select digunakan untuk memantau banyak koneksi socket
+- import select 
+> digunakan untuk memantau banyak koneksi socket
 - server menunggu client yang akan masuk
 - ketika client masuk, client diminta memasukkan nama 
 - semua user disimpan dalam sebuah dictionary clients
