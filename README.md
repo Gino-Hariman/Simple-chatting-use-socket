@@ -22,3 +22,14 @@
 - semua user disimpan dalam sebuah dictionary clients
 - sedangkan semua informasi mengenai ip address dan port 
 - disimpan dalam socket_list
+- skala masi local 
+
+## Dependencies
+### Server
+  - socket
+  - select
+### Client
+  - socket
+  - select
+  - errno
+  - sys
